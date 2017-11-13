@@ -64,7 +64,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ config('app.name', 'Unlifinance') }}
+                    {{ config('app.name', 'Company Name') }}
                 </a>
             </div>
 

@@ -58,8 +58,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 text-center">
-                UNLIFINANCE CORPORATION <br/>
-                Corner Rosario-Amapola St. Bacolod City<br/><br/>
+                {{ config('app.name', 'Company Name') }}<br/><br/>
                 PROCESSING SLIP
             </div>
         </div>
@@ -226,19 +225,19 @@
                     </div>
                     @else
                         <div class="col-xs-6 text-left b-bottom" style="margin:10px 0px;">
-                            BENJAMIN K. PASCUAL
+                            BOARD 1
                         </div>
                         <div class="col-xs-6 text-left b-bottom" style="margin:10px 0px;">
-                            ROY N. VISITACION
+                            BOARD 2
                         </div>
                         <div class="col-xs-6 text-left b-bottom" style="margin:10px 0px;">
-                            EDUARDO D. GARGAR
+                            BOARD 3
                         </div>
                         <div class="col-xs-6 text-left b-bottom" style="margin:10px 0px;">
-                            CEASAR CORUNA
+                            BOARD 4
                         </div>
                         <div class="col-xs-6 text-left b-bottom" style="margin:10px 0px;">
-                            MA EDALIZA J. GARGAR
+                            BOARD 5
                         </div>
 
                     @endif

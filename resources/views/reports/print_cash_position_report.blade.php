@@ -73,7 +73,7 @@
 
     </style>
     <div style="font-weight: bold;">
-        UNLIFINANCE CORP.<br/>
+        {{ config('app.name', 'Company Name') }}<br/>
         CASH POSITION, DISBURSEMENT, AND AVAILMENT REPORT<br/>
         Transaction Date : {{ \Carbon\Carbon::parse($date)->toFormattedDateString() }}
     </div>
@@ -325,13 +325,13 @@
 
             <div class="row">
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
-                    <span contenteditable="true">JN.SALJAY</span>
+                    <span contenteditable="true">&nbsp;</span>
                 </div>
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
                     Accounting
                 </div>
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
-                    JJP-Manager <br>
+                    
                     Manager
                 </div>
             </div>

@@ -481,7 +481,7 @@
                         'class' => 'col-sm-2 control-label'
                         ]) !!}
                         <div class="col-sm-10">
-                            {!! Form::text('manager', 'JOVEN J. PIMENTEL', [
+                            {!! Form::text('manager', null, [
                             'class' => 'form-control'
                             ]) !!}
                         </div>
@@ -492,7 +492,7 @@
                         'class' => 'col-sm-2 control-label'
                         ]) !!}
                         <div class="col-sm-10">
-                            {!! Form::text('approving_signatory', 'BENJAMIN K. PASCUAL', [
+                            {!! Form::text('approving_signatory', null, [
                             'class' => 'form-control'
                             ]) !!}
                         </div>
@@ -585,9 +585,9 @@
                         <a href="{{ url("/loans/{$loan->id}/print-processing-slip") }}" class="btn btn-default" target="_blank">Print Processing Slip</a>
                         <a href="{{ url("/loans/{$loan->id}/print-account-ledger") }}" class="btn btn-default" target="_blank">Print Account Ledger</a>
                         <a href="{{ url("/loans/{$loan->id}/print-credit-investigation-report") }}" class="btn btn-default" target="_blank">Print Credit Investigation Report</a>
-                        <a href="{{ url("/loans/{$loan->id}/print-chattel-mortgage") }}" class="btn btn-default" target="_blank">Print Chattel Mortgage</a>
-                        <a href="{{ url("/loans/{$loan->id}/print-disclosure-statement") }}" class="btn btn-default" target="_blank">Print Disclosure Statement</a>
-                        <a href="{{ url("/loans/{$loan->id}/print-promissory-note") }}" class="btn btn-default" target="_blank">Print Promissory Note</a>
+                        <!-- <a href="{{ url("/loans/{$loan->id}/print-chattel-mortgage") }}" class="btn btn-default" target="_blank">Print Chattel Mortgage</a>
+                        <a href="{{ url("/loans/{$loan->id}/print-disclosure-statement") }}" class="btn btn-default" target="_blank">Print Disclosure Statement</a> 
+                        <a href="{{ url("/loans/{$loan->id}/print-promissory-note") }}" class="btn btn-default" target="_blank">Print Promissory Note</a>  -->
                     </div>
                 </div>
             @endif

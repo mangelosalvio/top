@@ -8,8 +8,7 @@
     </style>
 
     <div class="text-center" style="font-weight: bold;">
-        UNLI FINANCE CORP. <br/>
-        BALANCE SHEET <br/>
+        {{ config('app.name', 'Company Name') }} <br>
         {{ \Carbon\Carbon::create($year,$month)->format("F Y") }}
     </div>
     <table class="table">

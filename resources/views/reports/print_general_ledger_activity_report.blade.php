@@ -1,7 +1,7 @@
 @extends('layouts.printable_reports')
 @section('content')
     <div class="text-center" style="font-weight: bold;">
-        UNLIFINANCE CORP <br/>
+        {{ config('app.name', 'Company Name') }} <br/>
         GENERAL LEDGER ACTIVITY REPORT <br/>
         From {{ \Carbon\Carbon::parse($from_date)->toFormattedDateString() }} - {{ \Carbon\Carbon::parse($to_date)->toFormattedDateString() }}
     </div>

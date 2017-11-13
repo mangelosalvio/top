@@ -62,8 +62,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2>
-                    UNLIFINANCE CORPORATION <br/>
-                    <small>Corner Rosario-Amapola St. Bacolod City</small>
+                    {{ config('app.name', 'Company Name') }}
                 </h2>
                 <h3>
                     CASH VOUCHER

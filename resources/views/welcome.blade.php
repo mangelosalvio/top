@@ -74,7 +74,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Unlifinance Loan System <br/>
+                    {{ config('app.name', 'Company Name') }} <br/>
                     <span style="font-size:12px;">Developed By: Michael Angelo O. Salvio</span>
                 </div>
             </div>

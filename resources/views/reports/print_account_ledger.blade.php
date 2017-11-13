@@ -75,8 +75,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 text-center">
-                UNLIFINANCE CORPORATION <br/>
-                Corner Rosario-Amapola St. Bacolod City<br/><br/>
+                {{ config('app.name', 'Company Name') }}<br/><br/>
                 CUSTOMER'S ACCOUNT LEDGER
             </div>
         </div>

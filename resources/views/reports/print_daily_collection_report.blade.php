@@ -55,7 +55,7 @@
 
     </style>
     <div class="text-center" style="font-weight: bold;">
-        UNLIFINANCE <br/>
+        {{ config('app.name', 'Company Name') }}<br/>
         DAILY COLLECTION REPORT<br/>
         {{ \Carbon\Carbon::parse($date)->toFormattedDateString() }}
     </div>
@@ -199,13 +199,12 @@
 
             <div class="row">
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
-                    JN.SALJAY
+                    &nbsp;
                 </div>
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
                     Accounting
                 </div>
                 <div class="col-xs-4 text-center" style="padding-top: 70px;">
-                    JJP-Manager <br>
                     Manager
                 </div>
             </div>
